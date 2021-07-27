@@ -149,4 +149,4 @@ beta.on("guildMemberUpdate", async (oldMember, newMember) => {
   let logKanali = beta.channels.cache.get(config.logChannelID);
   if (logKanali) { logKanali.send(new MessageEmbed().setThumbnail(user.displayAvatarURL({dynamic:true})).setColor("BLUE").setTitle('Sunucuda izinsiz yetki yükseltildi').setDescription(`${newMember} adlı üyeye ${entry.executor} isimli yetkili tarafından sunucuda izinsiz yetki verildi! \nYetki veren yetkili sunucudan yasaklandı ve verilen yetki geri alındı!`).setFooter(`Beta Koruma Sistemi`).setTimestamp())}}}});
 
-beta.login(config.Token).catch(() => console.log('Tokeni kontrol ediniz.'));
+beta.login(config.Token).catch(() => console.log('ODY5NTYyMDYzODQ3MDU1Mzk4.YQAAxw.QnKmuYwBjCD66gpL9dZGijDi4T8'));
